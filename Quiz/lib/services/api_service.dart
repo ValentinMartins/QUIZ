@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/question.dart';
 
 class ApiService {
-  static const String apiUrl = "https://run.mocky.io/v3/ec8eb9bb-db33-485b-982b-5e4af5f81f78";
+  static const String apiUrl = "https://run.mocky.io/v3/725a3a63-7ad6-4e63-9aae-63fac75aed80";
 
   static Future<List<Question>> fetchQuestions() async {
     try {

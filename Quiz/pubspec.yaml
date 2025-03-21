@@ -60,6 +60,8 @@ flutter:
     - assets/images/gold.png
     - assets/images/silver.png
     - assets/images/bronze.png
+    - assets/images/no_medal.png
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

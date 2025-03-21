@@ -35,7 +35,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
     if (percentage >= 100) return "assets/images/gold.png"; // 🥇 Or
     if (percentage >= 80) return "assets/images/silver.png"; // 🥈 Argent
     if (percentage >= 50) return "assets/images/bronze.png"; // 🥉 Bronze
-    return "assets/images/no_medal.png"; // Aucune médaille
+    return "assets/images/no_medal.png";
   }
 
   @override
@@ -48,9 +48,9 @@ class _ScoreScreenState extends State<ScoreScreen> {
           // 🎉 Confettis en arrière-plan
           ConfettiWidget(
             confettiController: _confettiController,
-            blastDirection: -pi / 2, // Direction vers le haut
-            emissionFrequency: 0.02, // Fréquence d'apparition
-            numberOfParticles: 10, // Quantité de confettis
+            blastDirection: -pi / 2,
+            emissionFrequency: 0.08,
+            numberOfParticles: 20, // Quantité de confettis
             gravity: 0.3, // Effet de gravité
           ),
 
